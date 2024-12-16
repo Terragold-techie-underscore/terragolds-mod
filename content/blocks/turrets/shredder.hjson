@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Shredder
-description: Rapidly fires sharpened copper pieces at enemies. [acidShreds the enemies like paper
+description: Rapidly fires sharpened copper pieces at enemies. [acid]Shreds the enemies like paper
 health: 850
 size: 2
 reload: 8
