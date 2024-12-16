@@ -1,0 +1,93 @@
+type: ItemTurret
+name: Hunter
+description: Fires homing bullets that track down enemies.
+size: 2
+health: 900
+range: 240
+targetAir: true
+targetGround: true
+reloadTime: 30
+shootSound: shootBig
+rotateSpeed: 5
+inaccuracy: 0
+shootEffect: shootBig
+recoilAmount: 2
+shootCone: 15
+
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      progress: recoil
+      moveY: -3
+      mirror: false
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      progress: warmup
+      mirror: true
+      moveX: 2
+      moveY: 1
+    }
+  ]
+}
+
+ammoTypes: {
+  copper: {
+    type: MissileBulletType
+    damage: 15
+    speed: 4
+    lifetime: 60
+    homingPower: 0.1
+    homingRange: 120
+    width: 8
+    height: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  titanium: {
+    type: MissileBulletType
+    damage: 25
+    speed: 5
+    lifetime: 60
+    homingPower: 0.15
+    homingRange: 150
+    width: 9
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 4
+    frontColor: 88c1d7
+    backColor: 6c7eb7
+  }
+  thorium: {
+    type: MissileBulletType
+    damage: 40
+    speed: 4.5
+    lifetime: 65
+    homingPower: 0.2
+    homingRange: 180
+    width: 10
+    height: 10
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    frontColor: f9a3c7
+    backColor: cb8eb5
+    splashDamage: 20
+    splashDamageRadius: 20
+  }
+}
+
+requirements: [
+  copper/50
+  lead/45
+  titanium/30
+]
+
+category: turret
+research: duo
