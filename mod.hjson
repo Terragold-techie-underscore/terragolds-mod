@@ -1,0 +1,9 @@
+name: "Terragolds Content"
+displayName: "Terragold's Content"
+author: "Terragold_techie_underscore"
+description: "The beginning is at its end."
+version: "1.0"
+minGameVersion: "146"
+dependencies: []
+hidden: false
+repo: "Terragold-techie-underscore/terragolds-content"
