@@ -1,0 +1,28 @@
+type: ItemTurret
+name: Shredder
+description: Rapidly fires sharpened copper pieces at enemies. [acidShreds the enemies like paper
+health: 850
+size: 2
+reload: 8
+range: 160
+ammoUseEffect: casing2
+inaccuracy: 2
+rotateSpeed: 12
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    speed: 4
+    damage: 18
+    width: 7
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  copper/45
+  graphite/35
+]
+category: turret
+research: duo
