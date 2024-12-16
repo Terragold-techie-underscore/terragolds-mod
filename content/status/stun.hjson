@@ -1,9 +1,7 @@
-{
-    "name": "Stun",
-    "description": "Target cannot move or attack",
-    "damage": 0,
-    "speedMultiplier": 0,
-    "reloadMultiplier": 0,
-    "effect": "hitYellow",
-    "color": "F3E979"
-}
+name: Stun
+description: Target cannot move or attack
+damage: 0
+speedMultiplier: 0
+reloadMultiplier: 0
+effect: hitLaser
+color: F3E979
