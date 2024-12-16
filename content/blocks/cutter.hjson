@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Cutter
+description: Cuts copper into precise pieces.
+size: 2
+health: 320
+craftTime: 60
+craftEffect: pulverize
+updateEffect: pulverizeSmall
+hasItems: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      flameRadius: 3
+      flameColor: ffc999
+    }
+  ]
+}
+
+consumes: {
+  items: {
+    items: [
+      copper/2
+    ]
+  }
+}
+
+outputItem: cutted-copper/1
+requirements: [
+  copper/50
+  lead/25
+]
+
+category: crafting
+research: mechanical-drill
