@@ -1,0 +1,57 @@
+type: tank
+name: "Terragold"
+description: "A mighty tank unit equipped with paralyzing green fire cannons and lightning weaponry. Its heavy armor makes it a formidable force on the battlefield."
+speed: 0.75
+hitSize: 21
+health: 7500
+armor: 45
+treadRectX: 10
+treadRectY: 16
+treadFrames: 8
+rotateSpeed: 2.5
+
+weapons: [
+  {
+    name: main-cannon
+    x: 0
+    y: 0
+    shootY: 8
+    reload: 60
+    rotate: true
+    rotateSpeed: 2
+    mirror: false
+    shootSound: shootSmite
+    
+    bullet: {
+      type: FireBulletType
+      damage: 150
+      speed: 5
+      lifetime: 60
+      range: 300
+      frontColor: 00ff00
+      backColor: 00ff00
+      width: 3
+      height: 8
+      shootEffect: shootBig
+      status: unmoving
+      statusDuration: 3600
+    }
+  },
+  {
+    name: lightning-weapon
+    x: 5
+    y: 2
+    reload: 30
+    rotate: true
+    mirror: true
+    shootSound: spark
+    
+    bullet: {
+      type: LightningBulletType
+      damage: 45
+      lightningLength: 15
+      lightningColor: ffffff
+      range: 120
+    }
+  }
+]
