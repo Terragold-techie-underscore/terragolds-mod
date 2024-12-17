@@ -1,0 +1,30 @@
+{
+    "type": "mech",
+    "name": "Ehlek",
+    "description": "A formidable mech that unleashes stunning green lightning bolts.",
+    "health": 860,
+    "armor": 4,
+    "speed": 0.5,
+    "rotateSpeed": 3.2,
+    "mechStepParticles": true,
+    "mechStepShake": 0.15,
+    "weapons": [
+        {
+            "name": "green-lightning-weapon",
+            "reload": 25,
+            "mirror": true,
+            "x": 4,
+            "y": 2,
+            "shootSound": "spark",
+            "bullet": {
+                "type": "LightningBulletType",
+                "damage": 20,
+                "lightningColor": "84f591",
+                "lightningLength": 15,
+                "lightningLengthRand": 7,
+                "status": "stun",
+                "statusDuration": 60
+            }
+        }
+    ]
+}
