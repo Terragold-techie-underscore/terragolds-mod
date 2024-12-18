@@ -24,7 +24,7 @@
         "damage": 8,
         "lightningLength": 12,
         "lightningColor": "a9d8ff",
-        "status": "Stun",
+        "status": "stun",
         "statusDuration": 60,
         "shootEffect": "sparkShoot",
         "hitEffect": "hitLancer"
