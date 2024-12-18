@@ -22,4 +22,4 @@ Feel free to contribute by:
 Created by Terragold_techie_underscore
 
 ## License
-This project is licensed under the GPL-3.0 License
+This project is licensed under the GNU licence
