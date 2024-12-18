@@ -1,0 +1,38 @@
+{
+  "type": "PowerTurret",
+  "name": "Quick",
+  "description": "Rapidly fires concentrated blue laser bolts at nearby enemies.",
+  "health": 860,
+  "size": 2,
+  "reloadTime": 10,
+  "range": 160,
+  "rotateSpeed": 12,
+  "inaccuracy": 2,
+  "shootCone": 25,
+  "shootSound": "blaster",
+  "shoot": {
+    "shots": 2,
+    "shotDelay": 3
+  },
+  "powerUse": 4.5,
+  "requirements": [
+    "copper/45",
+    "lead/65",
+    "titanium/40",
+    "silicon/35"
+  ],
+  "category": "turret",
+  "research": "duo",
+  "shootType": {
+    "type": "LaserBoltBulletType",
+    "damage": 18,
+    "speed": 5,
+    "lifetime": 32,
+    "frontColor": "00ffff",
+    "backColor": "0088ff",
+    "width": 2,
+    "height": 6,
+    "shootEffect": "shootSmall",
+    "hitEffect": "hitLaser"
+  }
+}
