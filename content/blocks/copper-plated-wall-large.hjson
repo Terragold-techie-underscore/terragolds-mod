@@ -1,0 +1,12 @@
+{
+  "type": "Wall",
+  "name": "Large Copper-Plated Wall",
+  "description": "A larger defensive wall reinforced with copper plating. Provides enhanced protection.",
+  "health": 1600,
+  "size": 2,
+  "requirements": [
+    {"item": "copper-plating", "amount": 16}
+  ],
+  "category": "defense",
+  "research": "copper-plated-wall"
+}
