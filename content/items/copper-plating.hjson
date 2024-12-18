@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Copper Plating",
+  "description": "Reinforced plating made from compressed Cutted Copper. Used in basic defense structures.",
+  "color": "d99d73",
+  "research": {
+    "parent": "cutted-copper"
+  }
+}
