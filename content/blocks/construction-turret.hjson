@@ -1,0 +1,24 @@
+{
+  "type": "BuildTurret",
+  "name": "Construction Turret",
+  "description": "Automatically builds and repairs blocks in range.",
+  "health": 900,
+  "size": 2,
+  "range": 160,
+  "buildSpeed": 0.8,
+  "category": "effect",
+  "requirements": [
+    "copper/60",
+    "lead/50",
+    "silicon/40"
+  ],
+  "research": "duo",
+  "rotateSpeed": 5,
+  "consumes": {
+    "power": 1.2
+  },
+  "targetInterval": 15,
+  "buildBeamOffset": 5,
+  "elevation": -1,
+  "heatColor": "ffd37f"
+}
