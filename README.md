@@ -8,8 +8,9 @@ A Mindustry mod that adds exciting new content to the game. The beginning is at 
 3. open the mods thingy
 4. hit "import"
 5. hit "import from file"
-6. reboot mindustry
-7. have fun
+6. click on the zip file
+7. reboot mindustry
+8. have fun
 
 ## Contributing
 Feel free to contribute by:
