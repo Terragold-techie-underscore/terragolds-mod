@@ -1,0 +1,31 @@
+{
+  "type": "PowerTurret",
+  "name": "Bug Zapper",
+  "description": "Releases focused lightning bolts to fry flying enemies. Highly effective against swarms of aerial units.",
+  "health": 750,
+  "size": 2,
+  "reloadTime": 25,
+  "range": 45,
+  "rotateSpeed": 8,
+  "shootCone": 30,
+  "shootSound": "spark",
+  "powerUse": 5.0,
+  "targetAir": true,
+  "targetGround": false,
+  "requirements": [
+    "copper/50",
+    "lead/45",
+    "silicon/35",
+    "titanium/25"
+  ],
+  "category": "turret",
+  "research": "arc",
+  "shootType": {
+    "type": "LightningBulletType",
+    "damage": 20,
+    "lightningLength": 45,
+    "lightningColor": "a9d8ff",
+    "lightningDamage": 12,
+    "range": 45
+  }
+}
